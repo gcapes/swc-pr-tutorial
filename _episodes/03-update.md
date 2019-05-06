@@ -5,7 +5,9 @@ exercises: 0
 questions:
 - "How do I make changes to an existing pull request?"
 objectives:
-- "Know how to amend or add to your pull request"
+- "Know how to make changes to an existing pull request"
+keypoints:
+- "Any changes to your feature branch in `origin` will be reflected in your PR automatically"
 ---
 So you've made your pull request, but changes have been requested. How do you make them?
 
