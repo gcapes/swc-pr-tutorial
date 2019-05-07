@@ -27,7 +27,8 @@ Search the issues first so that you're not duplicating anything.
 > ## Issue exercise
 > FIXME: Show one good and one bad example
 > Exercise: list details that make a good/bad issue
->  
+>
+> > ## Solution
 > > - Link to the relevant episode, exercise etc.
 > > - Quote any relevant text being discussed.
 > > - Give others chance to comment before submitting a PR.
@@ -45,12 +46,13 @@ tailor them to your PR.
 
 > ## Pull Request exercise
 > FIXME give a good example and a bad example
-> >
+>
+> > ## Solution
 > > In the description of the PR, describe in more detail if required.
 > > - Reference any related issues using #issuenumber.
 > > - If your commit fixes an issue, you can also reference this in the commit message:
 > > 'fix #issue-number'.
-> > 
+> >
 > > A pull request that is easy to merge usually does one thing, and one thing only --- keep it simple.
 > > If a pull request fixes several unrelated issues, it is harder to review.
 > > A pull request can only be merged, or not merged --- it isn't easy to merge part of a PR.
