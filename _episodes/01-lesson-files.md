@@ -36,5 +36,5 @@ The lesson web sites are build using Jekyll, so you'll need to
 [install Jekyll](http://carpentries.github.io/lesson-example/setup.html#optional-jekyll-setup-for-lesson-development)
 to build the site locally.
 
-Once you have made your changes, run `make serve` from the root directory of the lesson repository.
-The site will be build locally and can be viewed at <http://127.0.0.1:4000>
+Once you have made your changes, run `jekyll serve` from the root directory of the lesson repository.
+The site will be built locally and can be viewed at <http://127.0.0.1:4000>.
