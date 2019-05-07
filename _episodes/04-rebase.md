@@ -36,7 +36,7 @@ There is no merge commit required, and no possibility of a merge conflict. This 
 ## Remote repositories
 Our repo on our machines has local branches, and remote branches (the ones visible on GitHub).
 The GitHub repository is referred to as `origin` by default.
-You can check this with
+You can check this with:
 
 ```
 git remote -v
@@ -126,7 +126,7 @@ git push origin feature
 {: .language-bash}
 
 It doesn't work! In using rebase, we have rewritten the history of the branch,
-and so we now have commits locally that doesn't exist in `origin` and vice-versa.
+and so we now have commits locally that don't exist in `origin` and vice-versa.
 Git is trying to prevent us from accidentally overwriting any commits, and so the push fails.
 
 In order to get origin/feature to match feature, we must *force push*.
