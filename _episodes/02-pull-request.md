@@ -12,7 +12,7 @@ objectives:
 - "Know why to create a new feature branch for your PR"
 - "Be able to submit a pull request"
 keypoints:
-- "A pull request is asking the maintainer of a repo to merge your feaure branch"
+- "A pull request is asking the maintainer of a repo to merge your feature branch"
 - "A fork is making a copy of a repo into your GitHub account; it's a `git clone` on the GitHub servers"
 - "Creating a new feature branch for each pull request means you can work on more than one PR at a time"
 ---
@@ -40,7 +40,7 @@ Select your feature branch, and follow the instructions!
 > - Clone repo to your own machine
 > - Create a new feature branch
 > - Make changes to files
-> - Preview changes locally using `make serve`
+> - Preview changes locally using `jekyll serve`
 > - Commit changes to the new feature branch
 > - Push feature branch to origin
 > - Go to <github.com> and submit a PR from your new feature branch
