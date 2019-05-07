@@ -4,14 +4,14 @@ teaching: 0
 exercises: 0
 questions:
 - "When should I create an issue?"
-- "What makes a good pull request?"
+- "What makes a good PR?"
 - "How can I make my PR easy to review?"
 - "What makes my PR more likely to be merged quickly?"
 objectives:
 - "Know how to clearly communicate the purpose of your PR"
 - "Know how to make reviewing your PR easier"
 keypoints:
-- "Aim to fix only one thing per pull request"
+- "Aim to fix only one thing per PR"
 - "Reference any relevant issues"
 - "Give a short but descriptive title"
 - "The easier you make things for the reviewer, the more likely your PR is to be merged"
@@ -38,7 +38,7 @@ Search the issues first so that you're not duplicating anything.
 {: .challenge}
 
 ## Pull requests
-When you create a pull request, there is a title box, and a description box.
+When you create a PR, there is a title box, and a description box.
 It's great when the title gives a brief but descriptive overview of the PR,
 and when the description describes the what improvements are made by the PR.
 Both boxes will usually have some default text in them --- please take the time to
@@ -53,9 +53,9 @@ tailor them to your PR.
 > > - If your commit fixes an issue, you can also reference this in the commit message:
 > > 'fix #issue-number'.
 > >
-> > A pull request that is easy to merge usually does one thing, and one thing only --- keep it simple.
-> > If a pull request fixes several unrelated issues, it is harder to review.
-> > A pull request can only be merged, or not merged --- it isn't easy to merge part of a PR.
+> > A PR that is easy to merge usually does one thing, and one thing only --- keep it simple.
+> > If a PR fixes several unrelated issues, it is harder to review.
+> > A PR can only be merged, or not merged --- it isn't easy to merge part of a PR.
 > > So if one part of your PR is ready to merge, but another part needs more work,
 > > the unfinished part will delay the merging of the finished part.
 > > Creating a new feature branch for each PR enables you to work on multiple PRs at the same time.

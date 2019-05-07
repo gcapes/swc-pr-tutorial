@@ -4,18 +4,18 @@ teaching: 0
 exercises: 0
 questions:
 - "How do I keep my fork up to date with the original repository?"
-- "How do I 'replay' my pull request on top of the newest commit in the repository?"
+- "How do I 'replay' my PR on top of the newest commit in the repository?"
 - "How do I resolve a merge conflict?"
 objectives:
 - "Be able to add an upstream repository, and pull changes from it"
-- "Know how to rebase a pull request to resolve merge conflicts"
+- "Know how to rebase a PR to resolve merge conflicts"
 keypoints:
 - "A repository can have more than one remote"
 - "Adding an upstream remote allows you to keep your fork up to date"
-- "Rebasing a pull request enables you to resolve merge conflicts"
+- "Rebasing a PR enables you to resolve merge conflicts"
 ---
 The scenario: You submitted a PR, but there have been new commits since, and your PR can't be merged due to conflicts.
-This is because another pull request which has been merged, has made changes to one of the lines which you changed.
+This is because another PR which has been merged, has made changes to one of the lines which you changed.
 
 The lesson maintainer isn't necessarily able to resolve the conflict on your behalf,
 and certainly it will be easier for them to review and merge your PR if you resolve the conflicts for them.
@@ -135,6 +135,6 @@ git push -f origin feature
 ```
 {: .language-bash}
 
-Now the push works, and our pull request updates.
+Now the push works, and our PR updates.
 We resolved the conflicts, so the maintainer's job is easier ---
 and your PR is likely to be merged more quickly.
