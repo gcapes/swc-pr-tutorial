@@ -24,11 +24,12 @@ Sometimes it can be useful to create an issue first to discuss the intended chan
 This enables you to get input from others and get approval of the change before commiting your time.
 Search the issues first so that you're not duplicating anything.
 
-> ## Issue exercise
+> ## What makes a good issue?
 > FIXME: Show one good and one bad example
 > Exercise: list details that make a good/bad issue
 >
 > > ## Solution
+> > - Address only one thing (if possible).
 > > - Link to the relevant episode, exercise etc.
 > > - Quote any relevant text being discussed.
 > > - Give others chance to comment before submitting a PR.
@@ -37,14 +38,14 @@ Search the issues first so that you're not duplicating anything.
 > {: .solution}
 {: .challenge}
 
-## Pull requests
+## Pull Requests
 When you create a PR, there is a title box, and a description box.
 It's great when the title gives a brief but descriptive overview of the PR,
 and when the description describes the what improvements are made by the PR.
 Both boxes will usually have some default text in them --- please take the time to
 tailor them to your PR.
 
-> ## Pull Request exercise
+> ## What Makes a Good Pull Request?
 > FIXME give a good example and a bad example
 >
 > > ## Solution
