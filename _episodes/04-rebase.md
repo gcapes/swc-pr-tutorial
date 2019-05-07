@@ -23,21 +23,20 @@ So how do you do this?
 
 The scenario we're currently in is that we have forked the repo, and cloned it to our machines,
 submitting a PR from a feature branch.
-The network diagram below shows our branches, and the original repo branches.
+The network diagram below shows our branches (origin), and the original repo branches (upstream).
 
-FIXME: Network diagram showing your gh-pages branch, your PR branch, and the official repo's gh-pages branch.
+![Pull request behind upstream repo]({{ page.root }}/fig/pr-behind-upstream.svg)
 
 Our gh-pages branch is behind the official repo's gh-pages branch.
 The easiest merge to make is a fast forward merge, which happens when the feature branch is ahead of gh-pages.
-There is no merge commit required. This is what we are aiming for.
+There is no merge commit required, and no possibility of a merge conflict. This is what we are aiming for.
 
-FIXME: Network diagram showing origin/gh-pages which is the same as upstream/gh-pages, and origin/feature 
-which is ahead of both.
+![Pull request ahead of upstream repo]({{ page.root }}/fig/pr-ahead-of-upstream.svg)
 
 ## Remote repositories
 Our repo on our machines has local branches, and remote branches (the ones visible on GitHub).
 The GitHub repository is referred to as `origin` by default.
-You can check this with 
+You can check this with
 
 ```
 git remote -v
@@ -82,13 +81,14 @@ git log --graph --all --decorate --oneline
 
 Our local gh-pages branch is now the same as upstream/gh-pages.
 
-FIXME: Network diagram 
+![Pull upstream/gh-pages]({{ page.root }}/fig/pull-upstream-gh-pages.svg)
 
 
 ## Rebasing your feature branch onto the latest commit
 Now we can 'replay' the feature branch on top of the `gh-pages` branch.
 This will put it ahead of `gh-pages` which will enable a fast-forward merge for the maintainer.
 `git rebase` is the command which 'replays' commits onto a new base commit:
+it moves the whole feature branch onto a new starting point i.e. a new *base* commit.
 
 ```
 git checkout feature-branch
@@ -107,7 +107,7 @@ git rebase --continue
 
 After the rebase, the feature branch will be ahead of gh-pages and the maintainer can make a fast-forward merge.
 
-FIXME: Network diagram after rebase
+![Network diagram after rebase]({{ page.root }}/fig/after-rebase.svg)
 
 Let's visualise that for our repos:
 
@@ -136,5 +136,5 @@ git push -f origin feature
 {: .language-bash}
 
 Now the push works, and our pull request updates.
-We resolved the conflicts, so the maintainer's job is easier --- 
+We resolved the conflicts, so the maintainer's job is easier ---
 and your PR is likely to be merged more quickly.
