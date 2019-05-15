@@ -9,6 +9,22 @@ objectives:
 keypoints:
 - "Any changes to your feature branch in `origin` will be reflected in your PR automatically"
 ---
+## What happens next?
+After you have made your PR, the maintainers will receive an email notification,
+and will review your PR.
+
+For small PRs (e.g. fixing typos) your PR may be merged without any discussion.
+
+Sometimes a PR is out of the scope of the lesson, or inappropriate for inclusion,
+and the PR will be closed with an explanation from a maintainer.
+
+However, for more complicated PRs, there will likely be a review stage and/or general discussion about
+your proposal.
+This all happens on GitHub, and is typically between the maintainers and the submitter of the PR,
+but anyone is welcome to join the conversation.
+Often changes will be requested, and you will need to update or add to your PR.
+
+## Adding to your PR
 So you've made your PR, but changes have been requested. How do you make them?
 
 Let's take a look at the recent history of your git repository.
