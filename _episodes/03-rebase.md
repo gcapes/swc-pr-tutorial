@@ -3,7 +3,7 @@ title: "Rebasing a Pull Request"
 teaching: 0
 exercises: 0
 questions:
-- "How do I keep my fork up to date with the original repository?"
+- "How do I keep my fork up to date with the Carpentries repository?"
 - "How do I 'replay' my PR on top of the newest commit in the repository?"
 - "How do I resolve a merge conflict?"
 objectives:
@@ -23,13 +23,13 @@ So how do you do this?
 
 The scenario we're currently in is that we have forked the repo, and cloned it to our machines,
 submitting a PR from a feature branch.
-The network diagram below shows our branches (origin), and the original repo branches (upstream).
+The network diagram below shows our branches (origin), and the Carpentries repo branches (upstream).
 
 ![Pull request behind upstream repo]({{ page.root }}/fig/pr-behind-upstream.svg)
 
 Our gh-pages branch is behind the official repo's gh-pages branch.
 The easiest merge to make is a fast forward merge, which happens when the feature branch is ahead of gh-pages.
-There is no merge commit required, and no possibility of a merge conflict. This is what we are aiming for.
+There is no merge commit required, and no possibility of a merge conflict. This is what we are aiming for:
 
 ![Pull request ahead of upstream repo]({{ page.root }}/fig/pr-ahead-of-upstream.svg)
 
@@ -50,8 +50,8 @@ origin	https://github.com/gcapes/swc-pr-tutorial.git (push)
 {: .output}
 
 However, a repository can have more than one remote repo.
-For a forked repository such as the one we're using, we can add the original repo's address as a second remote.
-This allows us to keep our fork up to date with the original repo.
+For a forked repository such as the one we're using, we can add the Carpentires repo's address as a second remote.
+This allows us to keep our fork up to date with the Carpentries repo.
 When we add the original repo as a remote to our forked copy, it is convention to call this remote `upstream`,
 because changes can flow downstream to our forked copy.
 
@@ -83,6 +83,9 @@ Our local gh-pages branch is now the same as upstream/gh-pages.
 
 ![Pull upstream/gh-pages]({{ page.root }}/fig/pull-upstream-gh-pages.svg)
 
+
+The diagram below summarises the concepts involved in adding an upstream remote:
+![]({{ page.root }}/fig/upstream-repo.svg)
 
 ## Rebasing your feature branch onto the latest commit
 Now we can 'replay' the feature branch on top of the `gh-pages` branch.
