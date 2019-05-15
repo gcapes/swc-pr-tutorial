@@ -19,7 +19,12 @@ Today's skill-up session tackles all of these topics.
 > - working in feature branches
 > - pushing to remote repository
 >
-> This lesson uses Git from the command line, and so is easiest followed from a command prompt
+> This lesson uses Git from the command line, and so is easiest followed from a command prompt.
+>
+> Jekyll is used to build a local copy of the lessons --- it isn't absolutely required to follow
+> this course, but would be very useful if you could [install jekyll][jekyll] on your machine.
 {: .prereq}
+
+[Jekyll]: http://carpentries.github.io/lesson-example/setup.html#optional-jekyll-setup-for-lesson-development
 
 {% include links.md %}
