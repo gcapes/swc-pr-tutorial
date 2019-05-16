@@ -83,15 +83,24 @@ tailor them to your PR.
 >
 > 1. **Move callout for non-responsive commands**
 >
->     Move callout from episode 6 to where this problem may first be encountered in episode 4.
+>    Move callout from episode 6 to where this problem may first be encountered in episode 4.
 >
->     Fix #836
+>    Fix #836
 >
 > 2. **Update index.md**
 >
->    FIXME: add some uninformative text, maybe just the boilerplate text.
+>    Please delete the text below before submitting your contribution.
 >
-> 3. FIXME: example of PR which addresses several issues, making it cumbersome to discuss each point.
+>    Thanks for contributing! If this contribution is for instructor training, please send an email to checkout@carpentries.org with a link to this contribution so we can record your progress. You’ve completed your contribution step for instructor checkout just by submitting this contribution.
+>
+>    Please keep in mind that lesson maintainers are volunteers and it may be some time before they can respond to your contribution. Although not all contributions can be incorporated into the lesson materials, we appreciate your time and effort to improve the curriculum. If you have any questions about the lesson maintenance process or would like to volunteer your time as a contribution reviewer, please contact Kate Hertweck (k8hertweck@gmail.com).
+>
+>
+> 3. **Edited The Unix Shell: Loops**
+>
+>    - Fixed minor typos in goostats script
+>    - Moved callouts to better location
+>    - Added another exercise
 >
 > > ## Solution
 > > In the description of the PR, describe in more detail if required.
