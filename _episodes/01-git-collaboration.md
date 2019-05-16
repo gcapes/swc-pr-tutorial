@@ -93,7 +93,7 @@ The site will be built locally and can be viewed at <http://127.0.0.1:4000>.
 > ## Build a site locally using Jekyll
 > - Fork [this repository](https://github.com/gcapes/swc-pr-tutorial).
 > - Clone your forked repo to your laptop
-> - Build this lesson's website locally using jekyll
+> - Build this lesson's website locally using Jekyll
 >
 > > ## Solution
 > > ```
@@ -130,4 +130,4 @@ The site will be built locally and can be viewed at <http://127.0.0.1:4000>.
 > {: .solution}
 {: .challenge}
 
-[install jekyll]: http://carpentries.github.io/lesson-example/setup.html#optional-jekyll-setup-for-lesson-development
+[install Jekyll]: http://carpentries.github.io/lesson-example/setup.html#optional-jekyll-setup-for-lesson-development
