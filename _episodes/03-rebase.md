@@ -44,13 +44,13 @@ git remote -v
 {: .language-bash}
 
 ```
-origin	https://github.com/gcapes/swc-pr-tutorial.git (fetch)
-origin	https://github.com/gcapes/swc-pr-tutorial.git (push)
+origin	https://github.com/your-username/swc-pr-tutorial.git (fetch)
+origin	https://github.com/your-username/swc-pr-tutorial.git (push)
 ```
 {: .output}
 
 However, a repository can have more than one remote repo.
-For a forked repository such as the one we're using, we can add the Carpentires repo's address as a second remote.
+For a forked repository such as the one we're using, we can add the Carpentries repo's address as a second remote.
 This allows us to keep our fork up to date with the Carpentries repo.
 When we add the original repo as a remote to our forked copy, it is convention to call this remote `upstream`,
 because changes can flow downstream to our forked copy.
@@ -58,7 +58,7 @@ because changes can flow downstream to our forked copy.
 Let's add the upstream repo now:
 
 ```
-git remote add upstream URL
+git remote add upstream URL    # for this example we can use https://github.com/gcapes/swc-pr-tutorial.git
 ```
 {: .language-bash}
 
