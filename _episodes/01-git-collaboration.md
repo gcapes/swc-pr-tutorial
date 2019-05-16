@@ -107,13 +107,18 @@ The site will be built locally and can be viewed at <http://127.0.0.1:4000>.
 {: .challenge}
 
 > ## Send a pull request to this repo
+> ### Overview
 > This exercise uses your fork from the previous exercise.
 > You should already have cloned your fork to your laptop.
+> Please fix [this issue](https://github.com/gcapes/swc-pr-tutorial/issues/10) with your pull request
+> by adding some text to the *discussion* page (under the *extras* drop-down menu).
+>
+> ### Instructions
 > - Check out a new feature branch for your changes
-> - Make changes to files
+> - Make changes to the required file
 > - Preview changes locally using `jekyll serve`
 > - Commit changes to the new feature branch
-> - Push feature branch to origin
+> - Push your feature branch to origin
 > - Go to your repo on GitHub and submit a PR from your new feature branch
 >
 > > ## Solution
