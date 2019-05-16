@@ -1,7 +1,7 @@
 ---
 title: "Adding to a Pull Request"
-teaching: 0
-exercises: 0
+teaching: 5
+exercises: 5
 questions:
 - "How do I make changes to an existing PR?"
 objectives:

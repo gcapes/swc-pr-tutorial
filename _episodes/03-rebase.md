@@ -1,6 +1,6 @@
 ---
 title: "Rebasing a Pull Request"
-teaching: 0
+teaching: 20
 exercises: 0
 questions:
 - "How do I keep my fork up to date with the Carpentries repository?"

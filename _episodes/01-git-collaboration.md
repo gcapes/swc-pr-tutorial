@@ -1,7 +1,7 @@
 ---
 title: "Making a Pull Request"
-teaching: 0
-exercises: 0
+teaching: 10
+exercises: 10
 questions:
 - "How can I collaborate on a project using Git?"
 - "What is a remote repository?"

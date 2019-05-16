@@ -1,7 +1,7 @@
 ---
 title: "What makes a good Pull Request"
-teaching: 0
-exercises: 0
+teaching: 5
+exercises: 10
 questions:
 - "When should I create an issue?"
 - "What makes a good PR?"
