@@ -1,6 +1,6 @@
 ---
 title: Discussion
 ---
-FIXME
+This section contains other material that doesn't fix elsewhere.
 
 {% include links.md %}
