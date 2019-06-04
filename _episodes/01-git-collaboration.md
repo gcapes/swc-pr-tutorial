@@ -43,7 +43,7 @@ The first step is to make a **fork** (i.e. a copy) of the repo into your own acc
 Look for the *fork* button on the repo you want to copy:
 ![]({{ page.root }}/fig/fork-repo.svg)
 
-A fork is a `git clone` on GitHub's servers from the original repo into your account.
+A fork is a `git clone` on GitHub's servers from one account into another.
 You can then use your fork like any other repo that you own.
 
 Next, you `git clone` your newly forked repository (i.e. the copy in your GitHub account).
