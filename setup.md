@@ -1,6 +1,10 @@
 ---
 title: Setup
 ---
+## Files
+There are no files to download for this lesson.
+
+## Software
 This lesson uses Git, GitHub, and Jekyll.
 
 Please [install Git][Git], create an account on [GitHub], and [install Jekyll][Jekyll installation].
