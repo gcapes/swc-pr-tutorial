@@ -128,4 +128,4 @@ and your PR is likely to be merged more quickly.
 
 ## Subsequent PRs
 We have seen how pulling the upstream branch enables us to resolve a merge conflict,
-but you should use this technique to update your gh-pages branch before submitting another PR.
+but you should also use this technique to update your gh-pages branch before submitting another PR.
