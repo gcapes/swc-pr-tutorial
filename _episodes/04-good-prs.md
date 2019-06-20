@@ -18,11 +18,22 @@ keypoints:
 ---
 
 ## Issues
-Issues are like a to-do function. Feel free to report a problem you notice without feeling that you also have to fix it with a PR.
+Issues are like to-do items, with a built-in discussion platform.
+You should create an issue to report a problem you notice ---
+this doesn't mean that you also have to fix it with a PR, although you might well choose to.
+
+Issues can be referenced in GitHub discussions using `#issue-number`, and closed via a commit
+which includes `fix #issue-number` in the commit message.
+[Like this!](https://github.com/gcapes/swc-pr-tutorial/issues/9#event-2345953503)
 
 Sometimes it can be useful to create an issue first to discuss the intended change.
 This enables you to get input from others and get approval of the change before commiting your time.
 Search the issues first so that you're not duplicating anything.
+
+After creating an issue, it's a good idea to give others chance to comment before submitting a PR.
+If you plan to submit a PR anyway, it's probably easier to just submit a PR without first creating an issue:
+this keeps all the discussion in one place rather than split between the PR and an issue.
+It can also be easier to comment on changes suggested in a PR, than a description of them in an issue.
 
 > ## What makes a good issue?
 > Consider the two issues below, then list the positive and negative aspects of each.
@@ -65,16 +76,15 @@ Search the issues first so that you're not duplicating anything.
 > > - Address only one thing (if possible).
 > > - Link to the relevant episode, exercise etc.
 > > - Quote any relevant text being discussed.
-> > - Give others chance to comment before submitting a PR.
-> > If you plan to submit the PR anyway, it's probably easier to have any discussion on the PR rather than an issue.
-> > Sometimes it's easier to comment on changes than a description of them in an issue.
+> > - Follow any instructions in the issue template, such as deleting the default text
 > {: .solution}
 {: .challenge}
 
+
 ## Pull Requests
-When you create a PR, there is a title box, and a description box.
+When you create a PR (or an issue), there is a title box, and a description box.
 It's great when the title gives a brief but descriptive overview of the PR,
-and when the description describes the what improvements are made by the PR.
+and when the description explains what improvements are made by the PR.
 Both boxes will usually have some default text in them --- please take the time to
 tailor them to your PR.
 
@@ -103,16 +113,19 @@ tailor them to your PR.
 >    - Added another exercise
 >
 > > ## Solution
+> > Give your PR a short but descriptive title. Think of this as an email subject line.
 > > In the description of the PR, describe in more detail if required.
 > > - Reference any related issues using #issuenumber.
 > > - If your commit fixes an issue, you can also reference this in the commit message:
 > > 'fix #issue-number'.
 > > - A PR that is easy to merge usually does one thing, and one thing only --- keep it simple.
 > > - If a PR fixes several unrelated issues, it is harder to review.
-> > - A PR can only be merged, or not merged --- it isn't easy to merge part of a PR.
-> > - So if one part of your PR is ready to merge, but another part needs more work,
-> >   the unfinished part will delay the merging of the finished part.
-> > - Creating a new feature branch for each PR enables you to work on multiple PRs at the same time.
+> > - Follow any instructions in the PR template, such as deleting the default text
 > {: .solution}
 {: .challenge}
 
+Note that a PR can only be merged, or not merged --- it isn't easy to merge part of a PR.
+So if one part of your PR is ready to merge, but another part needs more work,
+the unfinished part will delay the merging of the finished part.
+
+Creating a new feature branch for each PR enables you to work on multiple PRs at the same time.
