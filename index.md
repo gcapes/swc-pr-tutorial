@@ -17,7 +17,7 @@ Today's skill-up session tackles all of these topics.
 > Learners should be familiar with using Git:
 > - making commits
 > - working in feature branches
-> - pushing to remote repository
+> - pushing to a remote repository
 >
 > This lesson uses Git from the command line, and so is easiest followed from a command prompt.
 >
