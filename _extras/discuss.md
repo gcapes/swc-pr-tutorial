@@ -1,6 +1,9 @@
 ---
 title: Discussion
 ---
-Maintainer edits to simulate another person's PR merge.
+Feel free to discuss anything over on the slack channel. 
+
+Everybody was kung fu fighting *nanananananananana*
+That kid was fast as lightning
 
 {% include links.md %}
