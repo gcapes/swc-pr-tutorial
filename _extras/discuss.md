@@ -1,6 +1,6 @@
 ---
 title: Discussion
 ---
-FIXME
+Maintainer edits to simulate another person's PR merge.
 
 {% include links.md %}
