@@ -61,9 +61,6 @@ SHA-1
 SSH
 :   The Secure Shell [protocol](#protocol) used for secure communication between computers.
 
-timestamp
-:   A record of when a particular event occurred.
-
 version control
 :   A tool for managing changes to a set of files.
     Each set of changes creates a new [commit](#commit) of the files;
