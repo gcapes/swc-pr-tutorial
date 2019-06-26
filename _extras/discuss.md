@@ -1,6 +1,6 @@
 ---
 title: Discussion
 ---
-FIXME
+This is my contribution to the discussion
 
 {% include links.md %}
