@@ -85,7 +85,13 @@ While not always necessary, it's a good idea to preview your changes locally bef
 and making a PR. This way you can be sure that your intended changes render correctly.
 
 The lesson web sites are built using Jekyll, so you'll need to
-[install Jekyll] to build the site locally.
+[install Jekyll] to build the site locally. 
+
+Once you have made your changes, run `jekyll serve` from the root directory of the lesson repository. 
+
+> *Depending on your operating system and installations, you might need* 
+> *to run a longer command:* `bundle exec jekyll serve --baseurl ''` 
+> *to get everything working.*
 
 Once you have made your changes, run `jekyll serve` from the root directory of the lesson repository.
 The site will be built locally and can be viewed at <http://127.0.0.1:4000>.
